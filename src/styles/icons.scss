@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../icons/icomoon.eot?z97e5r");
+  src: url("../icons/icomoon.eot?z97e5r#iefix") format("embedded-opentype"),
+    url("../icons/icomoon.ttf?z97e5r") format("truetype"),
+    url("../icons/icomoon.woff?z97e5r") format("woff"),
+    url("../icons/icomoon.svg?z97e5r#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("/assets/fonts/SourceSansPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans Pro Light";
+  src: url("/assets/fonts/SourceSansPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+em {
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: normal;
+  line-height: 1;
+
+}
+
+.icon-pacman:before {
+  content: "\e916";
+}
